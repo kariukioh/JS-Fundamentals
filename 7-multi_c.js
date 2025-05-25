@@ -1,4 +1,4 @@
-const x = process.arg[2]; //acessing the first argument
+const x = process.argv[2]; //acessing the first argument
 const num = parseInt(x); //converting to a number
 
 if (isNaN(num)) {
